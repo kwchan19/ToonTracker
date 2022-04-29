@@ -3,29 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0E5D213627FA288F00349601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D213527FA288F00349601 /* AppDelegate.swift */; };
 		0E5D213827FA288F00349601 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D213727FA288F00349601 /* SceneDelegate.swift */; };
-		0E5D213A27FA288F00349601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D213927FA288F00349601 /* ViewController.swift */; };
 		0E5D213D27FA288F00349601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D213B27FA288F00349601 /* Main.storyboard */; };
 		0E5D214027FA288F00349601 /* ToonTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D213E27FA288F00349601 /* ToonTracker.xcdatamodeld */; };
 		0E5D214227FA289000349601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D214127FA289000349601 /* Assets.xcassets */; };
 		0E5D214527FA289000349601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5D214327FA289000349601 /* LaunchScreen.storyboard */; };
+		0E5D214E27FA2C8E00349601 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D214D27FA2C8E00349601 /* HomePage.swift */; };
+		0E5D215427FA2DCD00349601 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D215327FA2DCD00349601 /* SearchBar.swift */; };
+		0E5D215727FA34BD00349601 /* TextFieldPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D215627FA34BD00349601 /* TextFieldPadding.swift */; };
+		0E5D215B27FA42D000349601 /* DailyWebtoonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D215A27FA42D000349601 /* DailyWebtoonCell.swift */; };
+		0E5D215D27FA4EB300349601 /* WebtoonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D215C27FA4EB300349601 /* WebtoonCollectionCell.swift */; };
+		0E7B8BBC27FCE259009BCFDD /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B8BBB27FCE259009BCFDD /* DayOfWeek.swift */; };
+		0E7B8BBE27FCE275009BCFDD /* ButtonRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B8BBD27FCE275009BCFDD /* ButtonRounding.swift */; };
+		0E89ADED27FF92FC0063E0CF /* ToonDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89ADEC27FF92FC0063E0CF /* ToonDetailCell.swift */; };
+		0E89ADF027FF9BE80063E0CF /* ToonDetailDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89ADEF27FF9BE80063E0CF /* ToonDetailDescription.swift */; };
+		0E89ADF427FFE7010063E0CF /* TopChartToons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89ADF327FFE7010063E0CF /* TopChartToons.swift */; };
+		0E89ADF627FFE7910063E0CF /* TopWeeklyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89ADF527FFE7910063E0CF /* TopWeeklyCell.swift */; };
+		0E89ADF827FFE7A50063E0CF /* SpotlightCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89ADF727FFE7A50063E0CF /* SpotlightCollectionCell.swift */; };
+		0E9145D12800C8CD007FDD5E /* SearchToons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9145D02800C8CD007FDD5E /* SearchToons.swift */; };
+		0E9145D32800C8F0007FDD5E /* SearchToonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9145D22800C8F0007FDD5E /* SearchToonCell.swift */; };
+		0E9145D52800CCD3007FDD5E /* SearchForToonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9145D42800CCD3007FDD5E /* SearchForToonFunction.swift */; };
+		0EAECAF627FE810100688694 /* ToonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAECAF527FE810100688694 /* ToonDetail.swift */; };
+		0EDA7F5C27FBA3450094095F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA7F5B27FBA3450094095F /* GoogleService-Info.plist */; };
+		0EDA7F5F27FBA54C0094095F /* RetrieveSubscribedToons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7F5E27FBA54C0094095F /* RetrieveSubscribedToons.swift */; };
+		0EDA7F6227FBA8420094095F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7F6127FBA8420094095F /* TabBar.swift */; };
+		0EDA7F6427FBB6D60094095F /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7F6327FBB6D60094095F /* GlobalVariables.swift */; };
+		0EDA7F6727FBBFDD0094095F /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7F6627FBBFDD0094095F /* LoginPage.swift */; };
+		0EDA7F6927FBC11A0094095F /* TabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDA7F6827FBC11A0094095F /* TabBarDelegate.swift */; };
+		89321741A21B0CF54ED6FC67 /* Pods_ToonTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8C29CB3203B89534BD848C /* Pods_ToonTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E5D213227FA288F00349601 /* ToonTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToonTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5D213527FA288F00349601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E5D213727FA288F00349601 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E5D213927FA288F00349601 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E5D213C27FA288F00349601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E5D213F27FA288F00349601 /* ToonTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToonTracker.xcdatamodel; sourceTree = "<group>"; };
 		0E5D214127FA289000349601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5D214427FA289000349601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5D214627FA289000349601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5D214D27FA2C8E00349601 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		0E5D215327FA2DCD00349601 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		0E5D215627FA34BD00349601 /* TextFieldPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPadding.swift; sourceTree = "<group>"; };
+		0E5D215A27FA42D000349601 /* DailyWebtoonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWebtoonCell.swift; sourceTree = "<group>"; };
+		0E5D215C27FA4EB300349601 /* WebtoonCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonCollectionCell.swift; sourceTree = "<group>"; };
+		0E7B8BBB27FCE259009BCFDD /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		0E7B8BBD27FCE275009BCFDD /* ButtonRounding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRounding.swift; sourceTree = "<group>"; };
+		0E89ADEC27FF92FC0063E0CF /* ToonDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToonDetailCell.swift; sourceTree = "<group>"; };
+		0E89ADEF27FF9BE80063E0CF /* ToonDetailDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToonDetailDescription.swift; sourceTree = "<group>"; };
+		0E89ADF327FFE7010063E0CF /* TopChartToons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopChartToons.swift; sourceTree = "<group>"; };
+		0E89ADF527FFE7910063E0CF /* TopWeeklyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopWeeklyCell.swift; sourceTree = "<group>"; };
+		0E89ADF727FFE7A50063E0CF /* SpotlightCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCollectionCell.swift; sourceTree = "<group>"; };
+		0E9145D02800C8CD007FDD5E /* SearchToons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchToons.swift; sourceTree = "<group>"; };
+		0E9145D22800C8F0007FDD5E /* SearchToonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchToonCell.swift; sourceTree = "<group>"; };
+		0E9145D42800CCD3007FDD5E /* SearchForToonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForToonFunction.swift; sourceTree = "<group>"; };
+		0EAECAF527FE810100688694 /* ToonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToonDetail.swift; sourceTree = "<group>"; };
+		0EDA7F5B27FBA3450094095F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0EDA7F5E27FBA54C0094095F /* RetrieveSubscribedToons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveSubscribedToons.swift; sourceTree = "<group>"; };
+		0EDA7F6127FBA8420094095F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		0EDA7F6327FBB6D60094095F /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		0EDA7F6627FBBFDD0094095F /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		0EDA7F6827FBC11A0094095F /* TabBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarDelegate.swift; sourceTree = "<group>"; };
+		3C8C29CB3203B89534BD848C /* Pods_ToonTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToonTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DF0F0A7FF45E9D2DC2F1A6 /* Pods-ToonTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToonTracker.debug.xcconfig"; path = "Target Support Files/Pods-ToonTracker/Pods-ToonTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		DF74959F7D044004279BE34E /* Pods-ToonTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToonTracker.release.xcconfig"; path = "Target Support Files/Pods-ToonTracker/Pods-ToonTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89321741A21B0CF54ED6FC67 /* Pods_ToonTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +91,8 @@
 			children = (
 				0E5D213427FA288F00349601 /* ToonTracker */,
 				0E5D213327FA288F00349601 /* Products */,
+				41A5C691EAB4D60776F92736 /* Pods */,
+				A780ABFAAE6821CFEA135B68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +107,150 @@
 		0E5D213427FA288F00349601 /* ToonTracker */ = {
 			isa = PBXGroup;
 			children = (
-				0E5D213527FA288F00349601 /* AppDelegate.swift */,
-				0E5D213727FA288F00349601 /* SceneDelegate.swift */,
-				0E5D213927FA288F00349601 /* ViewController.swift */,
-				0E5D213B27FA288F00349601 /* Main.storyboard */,
-				0E5D214127FA289000349601 /* Assets.xcassets */,
-				0E5D214327FA289000349601 /* LaunchScreen.storyboard */,
+				0E9145CF2800C8BC007FDD5E /* SearchToons */,
+				0E89ADF127FFE6E50063E0CF /* TopChartToons */,
+				0EAECAF427FE80E800688694 /* ToonDetail */,
+				0EDA7F6527FBBFD70094095F /* Login */,
+				0EDA7F6027FBA7F80094095F /* TabBar */,
+				0EDA7F5D27FBA5220094095F /* Functions */,
 				0E5D214627FA289000349601 /* Info.plist */,
-				0E5D213E27FA288F00349601 /* ToonTracker.xcdatamodeld */,
+				0EDA7F5B27FBA3450094095F /* GoogleService-Info.plist */,
+				0E5D214127FA289000349601 /* Assets.xcassets */,
+				0E5D215527FA34AE00349601 /* Extensions */,
+				0E5D215227FA2DC600349601 /* SearchBar */,
+				0E5D215127FA2CC900349601 /* Etc */,
+				0E5D215027FA2CBB00349601 /* Storyboard */,
+				0E5D214F27FA2CA600349601 /* Delegate */,
+				0E5D214C27FA2C7500349601 /* Home */,
+				0EDA7F6327FBB6D60094095F /* GlobalVariables.swift */,
 			);
 			path = ToonTracker;
+			sourceTree = "<group>";
+		};
+		0E5D214C27FA2C7500349601 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D214D27FA2C8E00349601 /* HomePage.swift */,
+				0E5D215A27FA42D000349601 /* DailyWebtoonCell.swift */,
+				0E5D215C27FA4EB300349601 /* WebtoonCollectionCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E5D214F27FA2CA600349601 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D213527FA288F00349601 /* AppDelegate.swift */,
+				0E5D213727FA288F00349601 /* SceneDelegate.swift */,
+				0EDA7F6827FBC11A0094095F /* TabBarDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0E5D215027FA2CBB00349601 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D213B27FA288F00349601 /* Main.storyboard */,
+				0E5D214327FA289000349601 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E5D215127FA2CC900349601 /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D213E27FA288F00349601 /* ToonTracker.xcdatamodeld */,
+			);
+			path = Etc;
+			sourceTree = "<group>";
+		};
+		0E5D215227FA2DC600349601 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D215327FA2DCD00349601 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		0E5D215527FA34AE00349601 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D215627FA34BD00349601 /* TextFieldPadding.swift */,
+				0E7B8BBB27FCE259009BCFDD /* DayOfWeek.swift */,
+				0E7B8BBD27FCE275009BCFDD /* ButtonRounding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0E89ADF127FFE6E50063E0CF /* TopChartToons */ = {
+			isa = PBXGroup;
+			children = (
+				0E89ADF327FFE7010063E0CF /* TopChartToons.swift */,
+				0E89ADF527FFE7910063E0CF /* TopWeeklyCell.swift */,
+				0E89ADF727FFE7A50063E0CF /* SpotlightCollectionCell.swift */,
+			);
+			path = TopChartToons;
+			sourceTree = "<group>";
+		};
+		0E9145CF2800C8BC007FDD5E /* SearchToons */ = {
+			isa = PBXGroup;
+			children = (
+				0E9145D02800C8CD007FDD5E /* SearchToons.swift */,
+				0E9145D22800C8F0007FDD5E /* SearchToonCell.swift */,
+			);
+			path = SearchToons;
+			sourceTree = "<group>";
+		};
+		0EAECAF427FE80E800688694 /* ToonDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0EAECAF527FE810100688694 /* ToonDetail.swift */,
+				0E89ADEC27FF92FC0063E0CF /* ToonDetailCell.swift */,
+				0E89ADEF27FF9BE80063E0CF /* ToonDetailDescription.swift */,
+			);
+			path = ToonDetail;
+			sourceTree = "<group>";
+		};
+		0EDA7F5D27FBA5220094095F /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				0EDA7F5E27FBA54C0094095F /* RetrieveSubscribedToons.swift */,
+				0E9145D42800CCD3007FDD5E /* SearchForToonFunction.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		0EDA7F6027FBA7F80094095F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0EDA7F6127FBA8420094095F /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0EDA7F6527FBBFD70094095F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0EDA7F6627FBBFDD0094095F /* LoginPage.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		41A5C691EAB4D60776F92736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF0F0A7FF45E9D2DC2F1A6 /* Pods-ToonTracker.debug.xcconfig */,
+				DF74959F7D044004279BE34E /* Pods-ToonTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A780ABFAAE6821CFEA135B68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C29CB3203B89534BD848C /* Pods_ToonTracker.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E5D214927FA289000349601 /* Build configuration list for PBXNativeTarget "ToonTracker" */;
 			buildPhases = (
+				FFBCD3A4F2FB5441EC0587B7 /* [CP] Check Pods Manifest.lock */,
 				0E5D212E27FA288F00349601 /* Sources */,
 				0E5D212F27FA288F00349601 /* Frameworks */,
 				0E5D213027FA288F00349601 /* Resources */,
+				736A89561DA0C9F144B18F43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5D214527FA289000349601 /* LaunchScreen.storyboard in Resources */,
+				0EDA7F5C27FBA3450094095F /* GoogleService-Info.plist in Resources */,
 				0E5D214227FA289000349601 /* Assets.xcassets in Resources */,
 				0E5D213D27FA288F00349601 /* Main.storyboard in Resources */,
 			);
@@ -135,15 +321,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		736A89561DA0C9F144B18F43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToonTracker/Pods-ToonTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToonTracker/Pods-ToonTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToonTracker/Pods-ToonTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFBCD3A4F2FB5441EC0587B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToonTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E5D212E27FA288F00349601 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5D215D27FA4EB300349601 /* WebtoonCollectionCell.swift in Sources */,
+				0E89ADF427FFE7010063E0CF /* TopChartToons.swift in Sources */,
+				0E5D214E27FA2C8E00349601 /* HomePage.swift in Sources */,
+				0EDA7F6727FBBFDD0094095F /* LoginPage.swift in Sources */,
 				0E5D214027FA288F00349601 /* ToonTracker.xcdatamodeld in Sources */,
-				0E5D213A27FA288F00349601 /* ViewController.swift in Sources */,
+				0EDA7F5F27FBA54C0094095F /* RetrieveSubscribedToons.swift in Sources */,
+				0E5D215427FA2DCD00349601 /* SearchBar.swift in Sources */,
+				0E7B8BBC27FCE259009BCFDD /* DayOfWeek.swift in Sources */,
+				0E89ADED27FF92FC0063E0CF /* ToonDetailCell.swift in Sources */,
+				0E9145D52800CCD3007FDD5E /* SearchForToonFunction.swift in Sources */,
+				0E5D215727FA34BD00349601 /* TextFieldPadding.swift in Sources */,
+				0E89ADF627FFE7910063E0CF /* TopWeeklyCell.swift in Sources */,
+				0EDA7F6427FBB6D60094095F /* GlobalVariables.swift in Sources */,
+				0E9145D32800C8F0007FDD5E /* SearchToonCell.swift in Sources */,
 				0E5D213627FA288F00349601 /* AppDelegate.swift in Sources */,
+				0EDA7F6227FBA8420094095F /* TabBar.swift in Sources */,
 				0E5D213827FA288F00349601 /* SceneDelegate.swift in Sources */,
+				0E7B8BBE27FCE275009BCFDD /* ButtonRounding.swift in Sources */,
+				0EDA7F6927FBC11A0094095F /* TabBarDelegate.swift in Sources */,
+				0EAECAF627FE810100688694 /* ToonDetail.swift in Sources */,
+				0E89ADF827FFE7A50063E0CF /* SpotlightCollectionCell.swift in Sources */,
+				0E5D215B27FA42D000349601 /* DailyWebtoonCell.swift in Sources */,
+				0E89ADF027FF9BE80063E0CF /* ToonDetailDescription.swift in Sources */,
+				0E9145D12800C8CD007FDD5E /* SearchToons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +535,7 @@
 		};
 		0E5D214A27FA289000349601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DF0F0A7FF45E9D2DC2F1A6 /* Pods-ToonTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +548,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.mayven.ToonTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,6 +556,7 @@
 		};
 		0E5D214B27FA289000349601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF74959F7D044004279BE34E /* Pods-ToonTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +569,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.mayven.ToonTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SUPPRESS_WARNINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

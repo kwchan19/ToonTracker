@@ -1,0 +1,6 @@
+framework module Pods_ToonTracker {
+  umbrella header "Pods-ToonTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
